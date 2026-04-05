@@ -1,16 +1,125 @@
-# React + Vite
+# 💳 Banking Frontend Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains the frontend of a full-stack banking system built using React (Vite). It provides a user-friendly interface for managing banking operations such as authentication, role-based dashboards, and account interactions.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- 🔐 User Authentication (Login / Register)
+- 👤 Role-based Access (Admin / Customer)
+- 📊 Dashboard Views for Different Users
+- 🔄 API Integration with Backend (Spring Boot)
+- 🔑 Token-based Authentication Handling
+- 📱 Responsive UI Design
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (Vite)
+- JavaScript (ES6+)
+- HTML5 / CSS3
+- Fetch API
+
+---
+
+## 📁 Project Structure
+bank-ui/
+├── src/
+│ ├── pages/
+│ │ ├── AdminDashboard.jsx
+│ │ ├── CustomerDashboard.jsx
+│ │ ├── Register.jsx
+│ │ ├── RoleSelect.jsx
+│ │ └── VerifySuccess.jsx
+│ ├── api.js
+│ ├── router.jsx
+│ ├── App.jsx
+│ └── main.jsx
+├── public/
+├── index.html
+├── package.json
+├── vite.config.js
+└── .env
+
+
+---
+
+## ⚙️ Environment Variables
+
+Create a `.env` file in the root directory:
+
+
+---
+
+## ⚙️ Environment Variables
+
+Create a `.env` file in the root directory:
+
+
+This variable defines the backend API base URL.
+
+---
+
+## ▶️ Run Locally
+
+Install dependencies:
+
+npm install
+
+Start development server:
+
+npm rundev
+
+
+App will run at:
+
+http://localhost:5173
+
+
+---
+
+## 🌐 Deployment
+
+This frontend is deployed using Vercel.
+
+After backend deployment, update the environment variable:
+
+VITE_API_URL=https://your-backend-url
+
+
+---
+
+## 🔗 Backend
+
+The backend is built using Spring Boot and will be deployed separately.
+
+It provides REST APIs for:
+- Authentication
+- Account management
+- Transactions
+
+---
+
+## 📌 Future Improvements
+
+- Improved UI/UX design
+- Better error handling and validation
+- Performance optimization
+- Integration with production backend
+- Enhanced security handling
+
+---
+
+## 👨‍💻 Author
+
+Mohammad Rashid Ansari
+
+---
+
+## ⭐ Notes
+
+This project is part of a full-stack banking system demonstrating real-world architecture:
+
+Frontend (React) + Backend (Spring Boot) + Database (PostgreSQL)    
