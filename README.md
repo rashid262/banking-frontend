@@ -26,22 +26,22 @@ This repository contains the frontend of a full-stack banking system built using
 
 ## 📁 Project Structure
 bank-ui/
-├── src/
-│ ├── pages/
-│ │ ├── AdminDashboard.jsx
-│ │ ├── CustomerDashboard.jsx
-│ │ ├── Register.jsx
-│ │ ├── RoleSelect.jsx
-│ │ └── VerifySuccess.jsx
-│ ├── api.js
-│ ├── router.jsx
-│ ├── App.jsx
-│ └── main.jsx
-├── public/
-├── index.html
-├── package.json
-├── vite.config.js
-└── .env
+- ├── src/
+- │ ├── pages/
+- │ │ ├── AdminDashboard.jsx
+- │ │ ├── CustomerDashboard.jsx
+- │ │ ├── Register.jsx
+- │ │ ├── RoleSelect.jsx
+- │ │ └── VerifySuccess.jsx
+- │ ├── api.js
+- │ ├── router.jsx
+- │ ├── App.jsx
+- │ └── main.jsx
+- ├── public/
+- ├── index.html
+- ├── package.json
+- ├── vite.config.js
+- └── .env
 
 
 ---
